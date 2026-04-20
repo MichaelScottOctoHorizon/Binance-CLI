@@ -15,10 +15,7 @@ api_secret = "7NWmQaxgKBSxjY5uBSmBXTVChUBpsx8svuymJc9ziWyAd2HRnj9z9FrviwkP4pUt"
 def get_client():
     client = Client(api_key, api_secret)
 
-    client.API_URL = "https://testnet.binance.vision/api"
-
     return client
-
 
 def get_server_time():
     client = get_client()
